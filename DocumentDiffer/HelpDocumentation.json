@@ -1,5 +1,5 @@
 {
-  "Usage": "usage: DocumentDiffer [-help, -h] inputPath",
+  "Usage": "DocumentDiffer [-help, -h] inputPath",
   "Examples": [
     "DocumentDiffer input.docx",
     "DocumentDiffer input.xlsx",
