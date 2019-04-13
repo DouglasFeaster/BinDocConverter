@@ -1,0 +1,40 @@
+{
+  "Applications": {
+    "Word": [
+      ".docx",
+      ".docm",
+      ".doc",
+      ".dotx",
+      ".dotm",
+      ".dot",
+      ".rtf",
+      ".odt"
+    ],
+    "Excel": [
+      ".xlsx",
+      ".xlsm",
+      ".xlsb",
+      ".xls",
+      ".csv",
+      ".xltx",
+      ".xltm",
+      ".xlt",
+      ".ods"
+    ],
+    "Power Point": [
+      ".pptx",
+      ".pptm",
+      ".ppt",
+      ".potx",
+      ".potm",
+      ".pot",
+      ".ppsx",
+      ".ppsm",
+      ".pps",
+      ".odp"
+    ],
+    "Adobe": [
+      ".pdf"
+    ]
+  }
+}
