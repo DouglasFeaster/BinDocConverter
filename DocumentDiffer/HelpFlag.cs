@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using Newtonsoft.Json;
+using DocumentDiffer.Models;
+using System.IO;
 
 namespace DocumentDiffer
 {
@@ -11,9 +13,9 @@ namespace DocumentDiffer
     public static class HelpFlag
     {
 #if DEBUG
-        private static string _helpFile { get; set; } = "";
+        private static string _helpFile { get; set; } = @".\HelpDocumentation.json";
 #else
-        private static string _helpFile { get; set; } = @"";
+        private static string _helpFile { get; set; } = @".\HelpDocumentation.json";
 #endif
 
         /// <summary>
@@ -36,15 +38,19 @@ namespace DocumentDiffer
         /// <summary>
         /// Get Help Class for writing help from HelpDocs JSON
         /// </summary>
-        public static void GetHelp()
+        public static HelpDocumentationModel GetHelp()
         {
             try
             {
-                JsonConvert.DeserializeObject("");
+                // read file into a string and deserialize JSON to a type
+                HelpDocumentationModel model = JsonConvert.DeserializeObject<HelpDocumentationModel>(File.ReadAllText(_helpFile));
+
+                return model;
+
             }
             catch
             {
-                Console.WriteLine("Error Occurred when accessing " + _helpFile);
+                return null;
             }
         }
     }
