@@ -1,0 +1,8 @@
+{
+  "Usage": "BinDocConverter [-help, -h] inputPath",
+  "Examples": [
+    "BinDocConverter input.docx",
+    "BinDocConverter input.xlsx",
+    "BinDocConverter input.pdf"
+  ]
+}

@@ -3,9 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>BinDocConverter</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DotNetCore.NPOI" Version="1.2.1" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
   </ItemGroup>
 

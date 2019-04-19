@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 using Newtonsoft.Json;
-using DocumentDiffer.Models;
+using BinDocConverter.Models;
 using System.IO;
 
-namespace DocumentDiffer
+namespace BinDocConverter.Helpers
 {
     /// <summary>
     /// Help Flag Class
     /// </summary>
-    public static class HelpFlag
+    public static class HelpFlagHelper
     {
 #if DEBUG
         private static string _helpFile { get; set; } = @".\HelpDocumentation.json";

@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace DocumentDiffer.Models
+namespace BinDocConverter.Models
 {
     public class HelpDocumentationModel
     {

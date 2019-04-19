@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BinDocConverter": {
+      "commandName": "Project",
+      "commandLineArgs": "test.docx"
+    }
+  }
+}

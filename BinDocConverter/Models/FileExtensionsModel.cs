@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace DocumentDiffer.Models
+namespace BinDocConverter.Models
 {
     public class FileExtensionsModel
     {
