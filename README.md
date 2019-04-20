@@ -32,16 +32,5 @@
     *.xlt diff=bindocconverter
     *.ods diff=bindocconverter 
 
-    *.pptx diff=bindocconverter
-    *.pptm diff=bindocconverter
-    *.ppt diff=bindocconverter
-    *.potx diff=bindocconverter
-    *.potm diff=bindocconverter
-    *.pot diff=bindocconverter
-    *.ppsx diff=bindocconverter
-    *.ppsm diff=bindocconverter
-    *.pps diff=bindocconverter
-    *.odp diff=bindocconverter
-
     *.pdf diff=bindocconverter
 ```
