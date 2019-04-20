@@ -2,7 +2,7 @@
   "profiles": {
     "BinDocConverter": {
       "commandName": "Project",
-      "commandLineArgs": "test.docx"
+      "commandLineArgs": "test.pptx"
     }
   }
 }

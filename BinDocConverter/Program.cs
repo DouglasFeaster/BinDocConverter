@@ -24,7 +24,7 @@ namespace BinDocConverter
                 }
                 else if (FileExtensionsHelper.IsPowerPoint(args[0]))
                 {
-                    Console.WriteLine("PowerPoint");
+                    DocumentConverter.PowerPoint(args[0]);
                 }
                 else if (FileExtensionsHelper.IsPDF(args[0]))
                 {
