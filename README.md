@@ -1,5 +1,5 @@
 # BinDocConverter [Still Under Development]
-## Use DotNet Framework based DCon[https://github.com/DouglasFeaster/DCon]
+## Use DotNet Framework based [DCon](https://github.com/DouglasFeaster/DCon)
 
 .gitconfig
 ```git
